@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.code-troopers.betterpickers:library:3.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe0dfc302458cd1526cb5709c2ae1bcc/jetified-library-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe0dfc302458cd1526cb5709c2ae1bcc/jetified-library-3.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe0dfc302458cd1526cb5709c2ae1bcc/jetified-library-3.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.code-troopers.betterpickers/library/3.1.0/4e51771c926208a9804e036f75afb5ca73a7ab74/library-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.code-troopers.betterpickers/library/3.1.0/e02635a12a96075d98d213dc389b529598b07866/library-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

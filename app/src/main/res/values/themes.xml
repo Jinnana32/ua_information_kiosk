@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kiosk" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="ubEditTextStyle">@style/UBEditText</item>
+        <item name="ubButtonStyle">@style/UBButton</item>
+        <item name="ubEditTextDateStyle">@style/UBEditTextDate</item>
+        <item name="ubEditTextTimeStyle">@style/UBEditTextTime</item>
+    </style>
+
+    <!--UBEditText-->
+    <style name="Base.EditText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/cla_curve_border</item>
+        <item name="android:paddingLeft">@dimen/m_padding</item>
+        <item name="android:paddingRight">@dimen/m_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:minHeight">@dimen/edit_text_height</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textCursorDrawable">@drawable/cla_button_style</item>
+    </style>
+
+    <style name="UBEditTextDate" parent="Base.EditText">
+        <item name="android:drawableRight">@drawable/ic_baseline_calendar_today_24</item>
+        <item name="android:enabled">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="UBEditTextTime" parent="Base.EditText">
+        <item name="android:drawableRight">@drawable/ic_baseline_access_time_24</item>
+        <item name="android:enabled">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="UBEditText" parent="Base.EditText" />
+
+    <!-- UBButton -->
+    <style name="Base.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:paddingLeft">@dimen/m_padding</item>
+        <item name="android:paddingRight">@dimen/m_padding</item>
+        <item name="android:background">@drawable/cla_button_bg</item>
+        <item name="android:minWidth">@dimen/button_width</item>
+    </style>
+
+    <style name="Base.UBButton.Primary" parent="Base.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/cla_button_selector</item>
+    </style>
+
+    <style name="Base.UBButton.Primary.Cancel" parent="Base.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/cla_button_selector_red</item>
+    </style>
+
+    <style name="Base.UBButton.Primary.register" parent="Base.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/cla_button_selector_green</item>
+    </style>
+
+    <style name="UBButton" parent="Base.Button" />
+
+    <!-- UB Tab -->
+
+    <style name="UBTabAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_large_body</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="UBTabAppearance.Medium" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="UBTabAppearance.small" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_extra_small</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="UBTabAppearance.Extra.Small" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

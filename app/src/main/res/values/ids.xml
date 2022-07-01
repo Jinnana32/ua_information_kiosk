@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="appointment_item" type="id" />
+    <item name="appointment_taken_item" type="id" />
+    <item name="unavailable_date_item" type="id" />
+    <item name="appointment_clinic_item" type="id" />
+    <item name="event_item" type="id" />
+    <item name="clinic_item" type="id" />
+</resources>

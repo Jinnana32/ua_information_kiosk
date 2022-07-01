@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Kiosk</string>
+    <string name="title_home">Home</string>
+    <string name="title_downloads">Downloads</string>
+    <string name="title_appointment">navigation_downloads</string>
+    <string name="title_profile">Profile</string>
+
+    <!--- generic -->
+    <string name="gen_continue">Continue</string>
+    <string name="gen_today">My Appointments for today</string>
+    <string name="gen_pending">Pending</string>
+    <string name="gen_history">History</string>
+    <string name="gen_search">Search</string>
+    <string name="gen_okay">Ok</string>
+
+    <!-- Login -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Continue</string>
+    <string name="login_headline">Healthcare within your reach</string>
+    <string name="login_register">Sign up for free</string>
+
+    <!-- Registration form -->
+    <string name="registration_header">Registration form</string>
+    <string name="registration_firstname">First name</string>
+    <string name="registration_lastname">Last name</string>
+    <string name="registration_middlename">Middle name</string>
+    <string name="registration_birthdate">Birth Date</string>
+    <string name="registration_gender">Gender</string>
+    <string name="registration_contact_number">Contact Number</string>
+    <string name="registration_present_address">Present Address</string>
+    <string name="registration_state">State</string>
+    <string name="registration_email_address">Email Address</string>
+    <string name="registration_password">Password</string>
+    <string name="registration_confirm_password">Confirm Password</string>
+    <string name="register_here_message">Register here.</string>
+    <string name="register_clinic_message">If you’re a clinic owner and wanted to save time by getting appointments on your finger tip then</string>
+
+    <!-- Home fragment -->
+    <string name="home_welcome_note">Welcome to Kiosk!</string>
+    <string name="home_subheader">You can view all Kiosk events here.</string>
+    <string name="home_appointment">Create Appointment</string>
+    <string name="empty_title">Nothing’s happening now</string>
+    <string name="empty_subtitle">All your appointments will appear here.</string>
+    <string name="scan_message">You can scan appointments for easy access</string>
+    <string name="scan_appointment">Scan appointment</string>
+
+    <!--  Search activity -->
+    <string name="list_tab">List</string>
+    <string name="map_tab">Map</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <!-- Clinic -->
+    <string name="location">Location</string>
+    <string name="appointment_title">Appointment</string>
+    <string name="title_activity_clinic">ClinicActivity</string>
+    <string name="make_appointment_message">You can make an appointment with us here.</string>
+
+    <!-- Appointment form -->
+    <string name="title_activity_appointment_form">AppointmentFormActivity</string>
+    <string name="make_an_appointment">Make an appointment</string>
+    <string name="preferred_date">Select date</string>
+    <string name="preferred_time">Select time</string>
+
+    <!-- Barcode info -->
+    <string name="barcode_scan_info">Show this Barcode to the clinic for verification.</string>
+    <string name="scan_barcode">Scan Barcode</string>
+
+    <!-- Appointment Details -->
+    <string name="patient_information_title">Patient Information</string>
+    <string name="appointment_info_patient_name_header">Name</string>
+    <string name="title_activity_register_maps">Map</string>
+
+    <string name="firebase_notification_channel">FIREBASE NOTIFICATION CHANNEL</string>
+    <string name="default_notification_channel_id">DEFAULT_NOTIFICATION_CHANNEL_ID</string>
+
+    <string-array name="type">
+        <item>student</item>
+        <item>visitor</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="year_level">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+    </string-array>
+    <string-array name="department">
+        <item>College of Computer Studies(CCS)</item>
+        <item>College of Teachers Education (CTE)</item>
+        <item>College of Fisheries (COF)</item>
+        <item>College of Business and Management (CBM)</item>
+    </string-array>
+    <string name="title_activity_testing">MainActivity</string>
+
+</resources>

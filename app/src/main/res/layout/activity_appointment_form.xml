@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHomeBG"
+    tools:context=".ui.appointment.AppointmentFormActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/xl_padding"
+        >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_appointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                >
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <!-- Clinic section -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/margin_medium"
+                        android:paddingStart="@dimen/margin_medium"
+                        android:paddingEnd="@dimen/margin_medium"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Clinic"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_large_body"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/form_clinic_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Dr. Beluga omsim"
+                            android:textAlignment="textEnd"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:background="@color/colorLightGray"/>
+
+                    <!-- End Clinic section -->
+
+                    <!-- Doctor section -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/margin_medium"
+                        android:paddingEnd="@dimen/margin_medium"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Doctor"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_large_body"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/form_clinic_doctor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Dr. Beluga"
+                            android:textAlignment="textEnd"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:background="@color/colorLightGray"/>
+
+                    <!-- End Doctor section -->
+
+                    <!-- Specialization section -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/margin_medium"
+                        android:paddingEnd="@dimen/margin_medium"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Specialization"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_large_body"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/form_clinic_specialization"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Familiy Doctor"
+                            android:textAlignment="textEnd"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:background="@color/colorLightGray"/>
+
+                    <!-- End Specialization section -->
+
+                    <!-- Address section -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/margin_medium"
+                        android:paddingEnd="@dimen/margin_medium"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Address"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_large_body"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/form_clinic_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Brgy. Buntatala Jaro"
+                            android:textAlignment="textEnd"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- End Address section -->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:background="@color/colorLightGray"/>
+
+                    <!-- End Specialization section -->
+
+                    <!-- Address section -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/margin_medium"
+                        android:paddingEnd="@dimen/margin_medium"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Opening time"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_large_body"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/form_clinic_opening"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="8:30 AM"
+                            android:textAlignment="textEnd"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- End Address section -->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:background="@color/colorLightGray"/>
+
+                    <!-- End Specialization section -->
+
+                    <!-- Address section -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/margin_medium"
+                        android:paddingEnd="@dimen/margin_medium"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Closing time"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_large_body"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/form_clinic_closing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="5:30 AM"
+                            android:textAlignment="textEnd"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_medium"/>
+
+                    <!-- End Address section -->
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_clinic_unavailable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/card_appointment"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_clinic_unavailable_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/item_divider_6"
+                    android:text="Unavailable days"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_title"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_clinic_unavailable_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingTop="@dimen/margin_small"
+                    android:paddingBottom="@dimen/margin_small"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_clinic_unavailable_days"
+                    app:layout_constraintStart_toStartOf="@+id/tv_clinic_unavailable_days"
+                    app:layout_constraintEnd_toEndOf="@+id/layout_tag"
+                    android:textSize="@dimen/text_body"
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.antique.events.ui.utils.components.UBEditText
+                android:id="@+id/et_date_pick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?ubEditTextDateStyle"
+                android:hint="@string/preferred_date"
+                android:background="@drawable/cla_curve_border_white"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                app:layout_constraintTop_toBottomOf="@+id/layout_clinic_unavailable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_booked_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Taken timeslots"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_body"
+                android:layout_marginTop="@dimen/margin_large"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/et_date_pick"
+                app:layout_constraintStart_toStartOf="@+id/et_date_pick"
+                app:layout_constraintEnd_toEndOf="@+id/et_date_pick"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_booked_appointment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/et_date_pick"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_date_pick"
+                app:layout_constraintTop_toBottomOf="@+id/tv_booked_title" />
+
+            <com.antique.events.ui.utils.components.UBEditText
+                android:id="@+id/et_time_pick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?ubEditTextTimeStyle"
+                android:hint="@string/preferred_time"
+                android:background="@drawable/cla_curve_border_white"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/rv_booked_appointment"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <com.antique.events.ui.utils.components.UBButton
+                android:id="@+id/form_appointment"
+                style="@style/Base.UBButton.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:text="@string/make_an_appointment"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_time_pick" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

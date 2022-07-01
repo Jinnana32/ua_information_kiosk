@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/colorRed"
+    app:cardCornerRadius="@dimen/margin_small"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/m_padding">
+
+        <View
+            android:id="@+id/item_indicator"
+            android:layout_width="@dimen/margin_small"
+            android:layout_height="@dimen/margin_small"
+            android:background="@drawable/indicator_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="Even title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/item_indicator"
+            app:layout_constraintStart_toEndOf="@+id/item_indicator"
+            app:layout_constraintTop_toTopOf="@+id/item_indicator" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="Event description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            app:layout_constraintStart_toEndOf="@+id/item_indicator"
+            app:layout_constraintTop_toBottomOf="@+id/item_title" />
+
+        <View
+            android:id="@+id/item_divider"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@color/colorLightGray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/item_description"
+            app:layout_constraintTop_toBottomOf="@+id/item_description" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/item_center_img"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/hospital"
+            android:layout_marginTop="@dimen/margin_small"
+            app:layout_constraintTop_toBottomOf="@+id/item_divider"
+            app:layout_constraintStart_toStartOf="@+id/item_divider"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_department"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="Department"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_extra_small"
+            app:layout_constraintEnd_toEndOf="@+id/item_divider"
+            app:layout_constraintStart_toEndOf="@+id/item_center_img"
+            app:layout_constraintTop_toTopOf="@+id/item_center_img" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_participants"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="participants: 10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_extra_small"
+            app:layout_constraintEnd_toEndOf="@+id/item_divider"
+            app:layout_constraintStart_toEndOf="@+id/item_center_img"
+            app:layout_constraintTop_toBottomOf="@+id/item_department" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_datetime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="June 11, 2021 - June 12, 2021"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_extra_small"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/item_divider"
+            app:layout_constraintStart_toStartOf="@+id/item_center_img"
+            app:layout_constraintTop_toBottomOf="@+id/item_center_img" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

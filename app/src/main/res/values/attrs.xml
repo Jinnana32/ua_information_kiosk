@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ubEditTextStyle" format="reference" />
+    <attr name="ubButtonStyle" format="reference" />
+    <attr name="ubEditTextDateStyle" format="reference" />
+    <attr name="ubEditTextTimeStyle" format="reference" />
+</resources>

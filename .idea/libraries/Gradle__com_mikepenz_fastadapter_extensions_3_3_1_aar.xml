@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikepenz:fastadapter-extensions:3.3.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca8a82ca1950c54dcdad6d9a9ab1ccec/jetified-fastadapter-extensions-3.3.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca8a82ca1950c54dcdad6d9a9ab1ccec/jetified-fastadapter-extensions-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca8a82ca1950c54dcdad6d9a9ab1ccec/jetified-fastadapter-extensions-3.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca8a82ca1950c54dcdad6d9a9ab1ccec/jetified-fastadapter-extensions-3.3.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions/3.3.1/ee6b89a668e89e98a93ca428448f4c03530f3112/fastadapter-extensions-3.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions/3.3.1/5b9d245c3e25325647b20701a489be3ca984beeb/fastadapter-extensions-3.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

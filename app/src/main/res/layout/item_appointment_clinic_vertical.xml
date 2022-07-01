@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="@dimen/margin_small"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/m_padding">
+
+        <View
+            android:id="@+id/item_indicator"
+            android:layout_width="@dimen/margin_small"
+            android:layout_height="@dimen/margin_small"
+            android:background="@drawable/indicator_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="Belguga Clinic"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/item_indicator"
+            app:layout_constraintStart_toEndOf="@+id/item_indicator"
+            app:layout_constraintTop_toTopOf="@+id/item_indicator" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_patient_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="30 mins remaining"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            app:layout_constraintStart_toEndOf="@+id/item_indicator"
+            app:layout_constraintTop_toBottomOf="@+id/item_patient_name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_contact_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="30 mins remaining"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            app:layout_constraintStart_toStartOf="@+id/item_divider"
+            app:layout_constraintTop_toBottomOf="@+id/item_divider" />
+
+        <View
+            android:id="@+id/item_divider"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@color/colorLightGrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/item_patient_address"
+            app:layout_constraintTop_toBottomOf="@+id/item_patient_address" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_datetime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="May 30, 2021 9:30am"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/item_divider"
+            app:layout_constraintTop_toBottomOf="@+id/item_contact_number" />
+
+        <com.antique.events.ui.utils.components.UBButton
+            android:id="@+id/btn_cancel_appointment"
+            style="@style/Base.UBButton.Primary.Cancel"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="Remove"
+            android:textSize="@dimen/text_small"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/item_datetime"
+            app:layout_constraintTop_toBottomOf="@+id/item_datetime" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="PENDING"
+            android:textColor="@color/md_orange_700"
+            android:textSize="@dimen/text_small_body"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/item_divider"
+            app:layout_constraintTop_toTopOf="@+id/item_patient_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

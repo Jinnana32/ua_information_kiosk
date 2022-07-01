@@ -1,0 +1,95 @@
+<resources>
+    <dimen name="grid_0">0dp</dimen>
+    <dimen name="grid_1_half">4dp</dimen>
+    <dimen name="grid_1">8dp</dimen>
+    <dimen name="grid_3_half">12dp</dimen>
+    <dimen name="grid_2">16dp</dimen>
+    <dimen name="grid_5_half">20dp</dimen>
+    <dimen name="grid_3">24dp</dimen>
+    <dimen name="grid_7_half">28dp</dimen>
+    <dimen name="grid_4">32dp</dimen>
+    <dimen name="grid_9_half">36dp</dimen>
+    <dimen name="grid_5">40dp</dimen>
+    <dimen name="grid_11_half">44dp</dimen>
+    <dimen name="grid_6">48dp</dimen>
+    <dimen name="grid_7">56dp</dimen>
+    <dimen name="grid_8">64dp</dimen>
+    <dimen name="grid_9">72dp</dimen>
+    <dimen name="grid_10">80dp</dimen>
+    <dimen name="grid_21_half">84dp</dimen>
+    <dimen name="grid_11">88dp</dimen>
+    <dimen name="grid_12">96dp</dimen>
+    <dimen name="grid_13">104dp</dimen>
+    <dimen name="grid_14">112dp</dimen>
+    <dimen name="grid_15">120dp</dimen>
+    <dimen name="grid_16">128dp</dimen>
+    <dimen name="grid_17">136dp</dimen>
+    <dimen name="grid_18">144dp</dimen>
+    <dimen name="grid_20">160dp</dimen>
+    <dimen name="grid_21">168dp</dimen>
+    <dimen name="grid_24">200dp</dimen>
+    <dimen name="grid_35">280dp</dimen>
+    <dimen name="grid_40">320dp</dimen>
+
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_vertical">60dp</dimen>
+    <dimen name="margin_vertical_m">100dp</dimen>
+    <dimen name="margin_vertical_xl">120dp</dimen>
+
+    <dimen name="text_banner">60sp</dimen>
+    <dimen name="text_large_headline">28sp</dimen>
+    <dimen name="text_headline">24sp</dimen>
+    <dimen name="text_large_title">22sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_large_body">18sp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_small_body">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_extra_small">9sp</dimen>
+    <dimen name="text_extra_extra_small">7sp</dimen>
+    <dimen name="edit_text_radius">8dp</dimen>
+    <dimen name="edit_text_height">48dp</dimen>
+
+    <dimen name="gray_edit_text_height">36dp</dimen>
+
+    <dimen name="button_radius">5dp</dimen>
+    <dimen name="button_width">140dp</dimen>
+    <dimen name="button_small_height">32dp</dimen>
+    <dimen name="button_small_width">96dp</dimen>
+
+    <dimen name="list_button_radius">15dp</dimen>
+
+    <dimen name="list_button_height">48dp</dimen>
+
+    <dimen name="xxs_padding">2dp</dimen>
+    <dimen name="xs_padding">5dp</dimen>
+    <dimen name="s_padding">10dp</dimen>
+    <dimen name="m_padding">15dp</dimen>
+    <dimen name="l_padding">20dp</dimen>
+    <dimen name="xl_padding">24dp</dimen>
+    <dimen name="xxl_padding">27dp</dimen>
+    <dimen name="xxxl_padding">32dp</dimen>
+
+    <dimen name="form_edittext_padding">8dp</dimen>
+    <dimen name="lbl_margin_transaction">24dp</dimen>
+
+    <dimen name="progress_dimension">50dp</dimen>
+
+    <dimen name="tab_button_height">16dp</dimen>
+    <dimen name="tab_button_width">32dp</dimen>
+    <dimen name="tab_button_radius">24dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+</resources>

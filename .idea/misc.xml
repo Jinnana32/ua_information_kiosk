@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/cla_button_primary_green_bg.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/cla_button_primary_red_bg.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/cla_button_selector_green.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/cla_button_selector_red.xml" value="0.1935" />
+        <entry key="app/src/main/res/layout/activity_appointment_details.xml" value="0.1021987915039062" />
+        <entry key="app/src/main/res/layout/activity_appointment_form.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.20388683374377262" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20199275362318841" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.23252716064453127" />
+        <entry key="app/src/main/res/layout/activity_update_profile.xml" value="0.18432971014492755" />
+        <entry key="app/src/main/res/layout/activity_update_user.xml" value="0.18432971014492755" />
+        <entry key="app/src/main/res/layout/fragment_appointment.xml" value="0.25408581719882256" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2187876604605412" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22330273614413504" />
+        <entry key="app/src/main/res/layout/item_appointment.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/item_appointment_clinic_vertical.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/item_appointment_vertical.xml" value="0.3442026995230412" />
+        <entry key="app/src/main/res/layout/item_download.xml" value="0.18432971014492755" />
+        <entry key="app/src/main/res/layout/item_event.xml" value="0.5158427141714788" />
+        <entry key="app/src/main/res/layout/item_event_vertical.xml" value="0.5641025641025641" />
+        <entry key="app/src/main/res/layout/toolbar_main.xml" value="0.20199275362318841" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.20572916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
